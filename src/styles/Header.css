@@ -1,0 +1,43 @@
+
+
+.header {
+  display: flex;
+  background-color:#212121;
+  height:100px;
+  justify-content: space-between;
+  align-items: flex-end;;
+  
+}
+
+.header ul {
+  display: flex;
+  height:50px;
+}
+
+.header .sections {
+  display: flex;
+  width: 54%;
+  justify-content: space-between;
+  align-items:center;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size:1.5rem;
+  color : white;
+  list-style: none;
+
+}
+.header .quantum-logo {
+  margin-left: 35px;
+}
+
+.header .quantum-logo img {
+  height: 50px;
+}
+
+
+.header .social-network .social-github img {
+
+}

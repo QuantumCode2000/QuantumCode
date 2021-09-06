@@ -1,12 +1,9 @@
-
-
 .header {
   display: flex;
   background-color:#212121;
   height:100px;
   justify-content: space-between;
   align-items: flex-end;;
-  
 }
 
 .header ul {
@@ -25,19 +22,68 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size:1.5rem;
-  color : white;
   list-style: none;
 
-}
-.header .quantum-logo {
-  margin-left: 35px;
 }
 
 .header .quantum-logo img {
   height: 50px;
 }
-
-
-.header .social-network .social-github img {
-
+.sections a {
+  text-decoration: none;
+  color:white;
 }
+.sections a:hover {
+  /*background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);*/
+  background: linear-gradient(90deg, rgba(38,52,161,1) 0%, rgba(115,143,190,1) 100%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
+}
+
+/* icons ubication */
+.icons {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* icono de github */
+
+.icons .github svg {
+  height: 16px;
+  width: 16px;
+}
+
+.octicon {
+  fill: white;
+}
+
+/* icono de twitter */
+
+.icons .twitter  svg {
+  height: 16px;
+  width: 16px;
+}
+
+/* icono de linkedin */
+
+.icons .linkedin  path {
+  height: 16px;
+  width: 16px;
+}
+
+.icons .linkedin  svg {
+  height: 22px;
+  width: 22px;
+}
+
+
+
+
+
+
+
+
+

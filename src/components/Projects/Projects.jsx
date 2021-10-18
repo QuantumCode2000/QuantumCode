@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Proyectos.css'
+import './Projects.style.css'
 const Proyectos = () => {
   return (
     <React.Fragment>

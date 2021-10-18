@@ -1,29 +1,28 @@
 .header {
   display: flex;
-  background-color:#212121;
-  height:100px;
+  background-color: #212121;
+  height: 100px;
   justify-content: space-between;
-  align-items: flex-end;;
+  align-items: flex-end;
 }
 
 .header ul {
   display: flex;
-  height:50px;
+  height: 50px;
 }
 
 .header .sections {
   display: flex;
   width: 54%;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
 li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   list-style: none;
-
 }
 
 .header .quantum-logo img {
@@ -31,11 +30,16 @@ li {
 }
 .sections a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 .sections a:hover {
   /*background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);*/
-  background: linear-gradient(90deg, rgba(38,52,161,1) 0%, rgba(115,143,190,1) 100%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 52, 161, 1) 0%,
+    rgba(115, 143, 190, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 200px;
@@ -62,28 +66,19 @@ li {
 
 /* icono de twitter */
 
-.icons .twitter  svg {
+.icons .twitter svg {
   height: 16px;
   width: 16px;
 }
 
 /* icono de linkedin */
 
-.icons .linkedin  path {
+.icons .linkedin path {
   height: 16px;
   width: 16px;
 }
 
-.icons .linkedin  svg {
+.icons .linkedin svg {
   height: 22px;
   width: 22px;
 }
-
-
-
-
-
-
-
-
-

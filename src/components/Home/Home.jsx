@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.style.css";
 const Home = () => {
-  const [esta, setEsta] = useState(false);
   return (
     <React.Fragment>
       <section className="home">

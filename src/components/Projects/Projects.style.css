@@ -1,24 +1,28 @@
-
 .proyectos {
   height: calc(100vh - 100px);
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   flex-direction: column;
 }
 
-.card {
+.proyectos a {
+  text-decoration: none;
+}
+
+.proyectos a .card {
   margin: 20px auto;
-  height: 150px;;
-  width: 400px;;
+  height: 150px;
+  width: 400px;
   border: 1px solid #ddd;
-  border-radius:10px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-h1 {
-  
+.proyectos a .card:hover,
+.proyectos a .card h1 :hover {
+  transform: scale(1.25);
 }

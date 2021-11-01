@@ -1,0 +1,133 @@
+.home {
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .home-container {
+  height: calc(100vh - 7rem);
+  width: 90%;
+  background: #212121;
+  position: relative;
+  border-radius: 5px;
+}
+
+.home .home-container:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * 5px);
+  left: calc(-1 * 5px);
+  height: calc(100% + 5px * 2);
+  width: calc(100% + 5px * 2);
+  background: linear-gradient(
+    60deg,
+    #738fbe,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  border-radius: calc(2 * 5px);
+  z-index: -1;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@-webkit-keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home .home-container .home-text {
+  color: white;
+  transition: all 0.3s ease-out;
+  /* border: solid 1px #cccc; */
+  margin: 2rem 0 0 2rem;
+}
+
+@keyframes jump {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.home .home-container .home-text span {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 8.7rem;
+}
+.home .home-container .home-text span:hover {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 5rem;
+  color: #05fdd8;
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  transform: scale3d(0, 0, 0);
+}
+
+.home-J {
+  display: inline;
+  position: relative;
+  font-size: 7rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+  color: #05fdd8;
+  font-weight: 600;
+}
+.home-J:after {
+  content: "J";
+  position: absolute;
+  left: 10px;
+  color: #fd2155;
+}
+/* .home-J:after {
+  content: "J";
+  position: absolute;
+  left: 10px;
+  top: -1px;
+  color: #fd2155;
+} */

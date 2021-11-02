@@ -1,7 +1,7 @@
 .header {
   display: flex;
   background-color: #212121;
-  height: 5rem;
+  height: 4rem;
   justify-content: space-around;
   align-items: flex-end;
 }

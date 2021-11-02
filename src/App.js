@@ -5,10 +5,10 @@ import SobreMi from "./components/SobreMi";
 import Proyectos from "./components/Projects/Projects";
 import Home from "./components/Home/Home";
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Layout>
         <Switch>
           <Route exact path="/">
@@ -17,12 +17,18 @@ function App() {
           <Route exact path="/home">
             <Home />
           </Route>
-          <Route exact path="/sobremi" component={SobreMi} />
-          <Route exact path="/proyectos" component={Proyectos} />
-          <Route exact path="/contacto" component={Contacto} />
+          <Route exact path="/sobremi">
+            <SobreMi />
+          </Route>
+          <Route exact path="/proyectos">
+            <Proyectos />
+          </Route>
+          <Route exact path="/contacto">
+            <Contacto />
+          </Route>
         </Switch>
       </Layout>
-    </BrowserRouter>
+    </Router>
   );
 }
 

@@ -1,0 +1,41 @@
+.skill {
+  font-family: "La Belle Aurore", cursive;
+}
+
+.react {
+  position: absolute;
+  left: 8rem;
+  top: 4rem;
+  font-size: 4rem;
+  color: aqua;
+  opacity: 0.2;
+  transform: rotate(-5deg);
+}
+
+.html {
+  position: absolute;
+  left: 4rem;
+  bottom: 4rem;
+  font-size: 4rem;
+  color: aqua;
+  opacity: 0.2;
+  transform: rotate(15deg);
+}
+.javascript {
+  position: absolute;
+  left: 20rem;
+  top: 8rem;
+  font-size: 4rem;
+  color: aqua;
+  opacity: 0.2;
+  transform: rotate(-5deg);
+}
+.css {
+  position: absolute;
+  left: 25rem;
+  bottom: 4rem;
+  font-size: 4rem;
+  color: aqua;
+  opacity: 0.2;
+  transform: rotate(-5deg);
+}

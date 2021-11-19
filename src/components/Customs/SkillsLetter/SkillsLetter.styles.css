@@ -39,3 +39,9 @@
   opacity: 0.2;
   transform: rotate(-5deg);
 }
+/* Responsive */
+@media (max-width: 701px) {
+  .skill {
+    display: none;
+  }
+}

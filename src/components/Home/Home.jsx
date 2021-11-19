@@ -3,6 +3,7 @@ import "./Home.style.css";
 import LetterAnimated from "../Customs/LetterAnimated/LetterAnimated";
 import MyLifeCycle from "../Customs/MyLifeCycle/MyLifeCycle";
 import SkillsLetter from "../Customs/SkillsLetter/SkillsLetter";
+
 const Home = () => {
   return (
     <React.Fragment>

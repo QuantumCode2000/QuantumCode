@@ -17,3 +17,10 @@
 .my-life-cycle .me {
   text-indent: 60px;
 }
+/* REsponsive */
+
+@media (max-width: 701px) {
+  .my-life-cycle {
+    display: none;
+  }
+}

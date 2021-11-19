@@ -7,7 +7,6 @@ const SkillsLetter = () => {
       <p className="skill javascript">JavaScript</p>
       <p className="skill html">HTML5</p>
       <p className="skill css">Css</p>
-      <p className="skill sass">Sass</p>
     </>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.style.css";
-import LetterAnimated from "../Customs/LetterAnimated/LetterAnimated";
-import MyLifeCycle from "../Customs/MyLifeCycle/MyLifeCycle";
-import SkillsLetter from "../Customs/SkillsLetter/SkillsLetter";
+import LetterAnimated from "../../components/customs/LetterAnimated/LetterAnimated";
+import MyLifeCycle from "../../components/customs/MyLifeCycle/MyLifeCycle";
+import SkillsLetter from "../../components/customs/SkillsLetter/SkillsLetter";
 
 const Home = () => {
   return (

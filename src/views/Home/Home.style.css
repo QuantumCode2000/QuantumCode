@@ -62,11 +62,8 @@
     background-position: 0% 50%;
   }
 }
-
-/* .home-J:after {
-  content: "J";
-  position: absolute;
-  left: 10px;
-  top: -1px;
-  color: #fd2155;
-} */
+@media (max-width: 701px) {
+  .home .home-container {
+    height: calc(100vh - 30rem);
+  }
+}

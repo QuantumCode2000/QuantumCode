@@ -1,25 +1,25 @@
 .my-life-cycle {
   position: absolute;
   z-index: 4;
-  right: 4rem;
-  top: 6.6rem;
+  right: 6.4rem;
+  top: 10.6rem;
   transform: rotate(22deg);
-  line-height: 4rem;
+  line-height: 6.4rem;
 }
 
 .my-life-cycle span,
 .my-life-cycle p {
   font-family: "La Belle Aurore", cursive;
-  font-size: 4rem;
+  font-size: 6.4rem;
   color: #515152;
 }
 
 .my-life-cycle .me {
-  text-indent: 60px;
+  text-indent: 9.6rem;
 }
 /* REsponsive */
 
-@media (max-width: 701px) {
+@media (max-width: 1100px) {
   .my-life-cycle {
     display: none;
   }
